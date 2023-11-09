@@ -1,0 +1,29 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "simon.brummer@posteo.de",
+                "Name": "Simon Brummer"
+            },
+            {
+                "Email": "jaap.geurts@gmail.com",
+                "Name": "Jaap Geurts"
+            }
+        ],
+        "Category": "Examples",
+        "Description": "Small example to showcase a Plasmoid with a Dlang backend",
+        "EnabledByDefault": true,
+        "Icon": "applications-system",
+        "Id": "org.kde.plasma.dlang.example",
+        "License": "GPL v2.0",
+        "Name": "Dlang backend example",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "TODO"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

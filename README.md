@@ -32,10 +32,15 @@ The entire example is built via KDE CMake build scripts to install things in the
 It is assumed that Rust, QT and KDE develop requirements are met.
 The following commands build and install the project.
 
+Download and install cmake-d in a folders
+
 ```
+cd plugin
+dub generate cmake
+cd ..
 mkdir build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+cmake -DCMAKE_INSTALL_PREFIX=~/<dstfolder>/ -DCMAKE_MODULE_PATH:PATH=/path/to/cmake-d ..
 cmake --build .
 sudo cmake --install .
 ```
